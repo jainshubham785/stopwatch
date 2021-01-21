@@ -1,0 +1,41 @@
+.container {
+    width: 200px;
+    border: 4px solid rgb(8, 73, 51);
+    padding: 0 30px 30px 30px;
+    margin: 70px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.timer {
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(43, 5, 75);
+}
+.controls {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+#start {
+    background-color: green;
+    color: black;
+}
+
+#pause {
+    background-color: yellow;
+    color: black;
+
+}
+#stop {
+    background-color: red;
+    color: black;
+}
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}

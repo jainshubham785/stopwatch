@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="timer">
+            <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+        <div class="controls">
+            <button id="start" onclick="start()">start</button>
+            <button id="pause" onclick="pause()" disabled>pause</button>
+            <button id="stop" onclick="stop()" disabled>stop</button>
+        </div>
+        <div class="timestamp">
+            <h3>Time Stamps</h3>
+            <ol id="timestamp">
+            </0l>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
