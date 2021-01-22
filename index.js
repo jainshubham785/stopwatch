@@ -34,7 +34,7 @@ function intervalManager(flag, incrementTimer, time) {
 
 function incrementTimer() {
     curr_miliSec++;
-    if (curr_miliSec == 99) {
+    if (curr_miliSec == 100) {
         curr_miliSec = 0;
         curr_second++;
         if (curr_second == 60) {
@@ -74,7 +74,7 @@ function pause() {
         pauseBtn.textContent = "continue";
     }
     if (text == "continue") {
-        intervalManager(true, incrementTimer, 1000);
+        intervalManager(true, incrementTimer, 10);
         pauseBtn.textContent = "pause";
     }
 }
